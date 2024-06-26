@@ -62,7 +62,7 @@ export default async function Home() {
                 </div>
                 <p className="text-gray-500 text-sm mt-2">{new Date(post._createdAt).toLocaleDateString()}</p>
                 <Button asChild className="w-full mt-4">tawe
-                  {/* <Link href={`/post/${post.currentSlug}`}>Read More</Link> */}
+                  <Link href={`/post/${post.currentSlug}`}>Read More</Link>
                 </Button>
               </CardContent>
             </Card>
